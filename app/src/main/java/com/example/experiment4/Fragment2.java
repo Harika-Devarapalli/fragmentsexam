@@ -34,7 +34,7 @@ public class Fragment2 extends Fragment {
             t4.setText(bundle.getString("review"));
         }
         else{
-            t1.setText("No Data Received");
+            t1.setText("hi");
         }
         return root;
     }

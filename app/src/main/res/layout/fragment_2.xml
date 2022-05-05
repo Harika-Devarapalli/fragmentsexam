@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:padding="25dp"
     android:layout_marginTop="10dp"
-    android:background="#D4F7FD"
+    android:background="@color/black"
     tools:context=".Fragment1">
 
     <TextView
@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:textSize="20dp"
+        android:textSize="30dp"
         android:singleLine="true"
         android:nextFocusForward="@+id/branch"
         android:id="@+id/nameDisplay"/>
@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:textSize="20dp"
+        android:textSize="30dp"
         android:singleLine="true"
         android:nextFocusForward="@+id/year"
         android:id="@+id/branchDisplay"/>
@@ -32,7 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:textSize="20dp"
+        android:textSize="30dp"
         android:singleLine="true"
         android:nextFocusForward="@+id/review"
         android:id="@+id/yearDisplay"/>
@@ -41,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:textSize="20dp"
+        android:textSize="30dp"
         android:imeOptions="actionNext"
         android:singleLine="true"
         android:id="@+id/reviewDisplay"/>
